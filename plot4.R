@@ -20,7 +20,7 @@ lines(time, data$Sub_metering_2, col = "red")
 
 lines(time, data$Sub_metering_3, col = "blue")
 
-legend("topright", lty = 0, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", lty = 1, col = c("black", "red", "blue"), bty='n', legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 plot(time, data$Global_reactive_power, type = "l", xlab = "datetime", ylab='Global_Active_Power')
 
